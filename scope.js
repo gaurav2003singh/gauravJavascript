@@ -10,4 +10,4 @@ function test() {
 }
 test();
 // console.log(b); ❌ Error (b is function-scoped)
-console.log(b); // ✅ Accessible (a is global)
+// console.log(b); // ✅ Accessible (a is global)
