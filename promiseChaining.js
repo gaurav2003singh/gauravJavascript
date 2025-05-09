@@ -3,7 +3,8 @@ let x = 5;
 function double(x) {
   return new Promise((resolve, reject) => {
     resolve(x * 2);
-  });
+  })
+ 
 }
 function addTen(x) {
   return new Promise((resolve, reject) => {
